@@ -1,8 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .header {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
     padding: 15px 70px;
+    margin: 0;
 }
 
 .hero {
@@ -13,15 +19,74 @@
 .h-left {
     color: #F9FAF8;
     font-size: 24px;
+    font-weight: 900;
 }
 
 .h-right {
     display: flex;
-    font-size: 18px;
-    color: #E5E7EB;
     gap: 15px;
 }
 
 .h-left, .h-right {
     flex-shrink: 0;
+}
+
+.h-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    width: 300px;
+}
+
+.h-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    
+}
+
+.h-cont-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 370px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.h-container {
+    display: flex;
+    margin-top: 70px;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.h-cont-right {
+    display: flex;
+    color: white;
+    background-color: grey;
+    justify-content: center;
+    align-items: center; 
+    height: 250px;
+    width: 400px;
+    flex: 1 auto;
+}
+
+.h-cont-left {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 370px;
+    
+}
+
+.h-button {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(0, 115, 255);
+    color: white;
+    font-weight: 900;   
+}
+
+.h-text {
+    padding-bottom: 5px;
 }
