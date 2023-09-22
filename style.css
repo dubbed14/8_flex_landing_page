@@ -97,7 +97,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 300px;
     padding: 40px 70px;
+    
 }
 
 .top-body-info {
