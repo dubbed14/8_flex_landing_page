@@ -15,18 +15,21 @@ body {
 
 .hero {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .h-left {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 900;
+    padding-left: 10px;
+    
 }
 
 .h-right {
     display: flex;
     gap: 15px;
+    padding-right: 12px;
 }
 
 .h-left, .h-right {
@@ -47,9 +50,9 @@ body {
 }
 
 .h-cont-text {
-    font-size: 18px;
+    font-size: 20px;
     color: #E5E7EB;
-    width: 370px;
+    width: 450px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -59,7 +62,7 @@ body {
     margin-top: 70px;
     gap: 20px;
     justify-content: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .h-cont-right {
@@ -69,26 +72,27 @@ body {
     justify-content: center;
     align-items: center; 
     height: 250px;
-    width: 400px;
-    flex: 1 auto;
+    width: 600px;
+    flex-shrink: 1;
 }
 
 .h-cont-left {
     display: flex;
     flex-direction: column;
     height: 250px;
-    width: 370px;
+    width: 500px;
     
 }
 
 .h-button {
-    width: 100px;
-    height: 30px;
+    width: 150px;
+    height: 40px;
     background-color: #3882F6;
     border: 1px solid #3882F6;
     color: white;
     font-weight: 900;  
     border-radius: 10px; 
+    font-size: 18px;
 }
 
 .h-text {
