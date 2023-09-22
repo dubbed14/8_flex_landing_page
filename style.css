@@ -108,7 +108,6 @@ body {
 
 .boxes-container {
     display: flex;
-    border: 1px solid black;
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
@@ -124,4 +123,31 @@ body {
 .box-sub {
     width: 140px;
     text-align: center;
+    margin-top: 5px;
+}
+
+.mid-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #E5E7EB;
+    
+}
+
+.mid-body-text {
+    width: 620px;
+    font-size: 36px;
+    font-style: italic;
+    color: #373839;
+}
+
+.signature {
+    display: flex;
+    width: 500px;
+    border: 1px solid black;
+    flex-direction: row-reverse;
+    font-size: 24px;
+    font-weight: 700;
 }
