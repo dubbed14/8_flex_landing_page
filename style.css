@@ -106,13 +106,16 @@ body {
 
 .top-body-info {
     height: 50px;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .boxes-container {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 30px;
     
 }
 
@@ -134,7 +137,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 400px;
     background-color: #E5E7EB;
     
 }
@@ -156,7 +159,7 @@ body {
 }
 
 .lower-body {
-    height: 300px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -194,4 +197,17 @@ body {
     font-size: 18px;
     padding: 7px 18px;
     border-radius: 15px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: white;
+    font-size: 18px;
 }
